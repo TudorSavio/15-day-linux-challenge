@@ -21,3 +21,4 @@ $ id testuser
 $ groups testuser
 $ sudo deluser testuser
 $ sudo groupdel devteam
+Delete content of Day 3 file
