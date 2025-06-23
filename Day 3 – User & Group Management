@@ -1,0 +1,23 @@
+# 👥 Day 3 – User & Group Management
+
+## 🔧 Commands Practiced
+- `whoami` – Show current user
+- `id` – Show UID, GID, groups
+- `adduser` / `useradd` – Create users
+- `passwd` – Set or change user password
+- `groupadd` – Create a group
+- `usermod` – Modify user (add to group, rename, etc.)
+- `groups` – List user’s groups
+- `deluser` / `userdel` – Delete user
+- `delgroup` / `groupdel` – Delete group
+
+## 🧪 Practice Output
+
+```bash
+$ sudo adduser testuser
+$ sudo groupadd devteam
+$ sudo usermod -aG devteam testuser
+$ id testuser
+$ groups testuser
+$ sudo deluser testuser
+$ sudo groupdel devteam
